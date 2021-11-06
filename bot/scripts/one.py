@@ -1,6 +1,6 @@
 # the following codes contain spoilers 😂
 from pyrogram import filters 
-from Config import *
+from bot.Config import *
 
 @app.on_message(filters.command(["start"]))
 async def start(bot, message):
