@@ -1,5 +1,5 @@
 from pyrogram import filters 
-from Config import *
+from config import *
   
 @app.on_message(filters.command(["start"]))
 async def start(bot, message):
