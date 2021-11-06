@@ -27,7 +27,7 @@ class vars(object):
     BOT_TOKEN = get_config('BOT_TOKEN')
   except Exception as e:
     print(str(e))
-    exit()
+  #  exit()
     
     
 API_ID = 3281305
