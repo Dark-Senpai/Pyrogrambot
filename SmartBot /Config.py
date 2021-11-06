@@ -18,7 +18,7 @@ except Exception as e:
 
 plugins = dict(root="SmartBot/super_scripts")
 app = pyrogram.Client(
-  "Powerful_Script_Bot",
+  "Anime",
   api_id=API_ID,
   api_hash=API_HASH,
   bot_token=BOT_TOKEN,

@@ -1,1 +1,1 @@
-worker: python3 -m SmartBot
+Anime: python -m SmartBot
