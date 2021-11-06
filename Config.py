@@ -31,6 +31,7 @@ BOT_TOKEN = "2124586685:AAEtpsQEurB2-rfJan7kzyrrPJvRtl0aPGo"
 
 
 SBot = Client(
+  'bruh',
   bot_token=BOT_TOKEN,
   api_id=API_ID,
   api_hash=API_HASH
