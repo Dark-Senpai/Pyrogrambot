@@ -1,4 +1,8 @@
 # the following codes contain spoilers 😂
+from pyrogram import filters 
+from Config import *
+
+@app.on_message(filters.command(["start"]))
 async def start(bot, message):
   await bot.send_message(
     message.chat.id,

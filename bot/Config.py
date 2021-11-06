@@ -24,7 +24,7 @@ class vars(object):
     exit()
     
 API_ID = 16067877
-API_HASH = "5f18154b89b1792829d1c7b1e1dd7e82" 
+API_HASH = "5f18154b89b1792829d1c7b1e1dd7e82"
 BOT_TOKEN = "2124586685:AAEtpsQEurB2-rfJan7kzyrrPJvRtl0aPGo" 
 
 app = Client(

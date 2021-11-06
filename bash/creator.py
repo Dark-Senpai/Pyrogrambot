@@ -1,1 +1,1 @@
-python3 -m action.py
+python3 -m bot
