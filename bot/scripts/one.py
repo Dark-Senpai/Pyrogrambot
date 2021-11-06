@@ -4,6 +4,6 @@ async def start(bot, message):
     message.chat.id,
     text="**Hi! I am online. Join my channel**!",
     reply_markup=InlineKeyboardMarkup(
-      [InlineKeyboardButton("CHANNEL", url="https://t.me/Animes_Encoded"]),
+      [InlineKeyboardButton("CHANNEL", url="https://t.me/Animes_Encoded")],
     ),
   )
