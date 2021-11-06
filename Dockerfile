@@ -1,3 +1,4 @@
+# bash is easy , html is good . The same way python is easy , libraries are good 😂😀
 FROM artemisfowl004/vid-compress
 WORKDIR /app
 COPY requirements.txt .
