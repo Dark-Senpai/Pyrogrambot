@@ -1,5 +1,11 @@
 import os
-from pyrogram import Client
+import logging
+from pyrogram import client 
+
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+LOGGER = logging.getLogger(__name__)
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def get_config(name: str, d_v=None, should_prompt=False):
   val = os.environ.get(name, d_v)
@@ -22,7 +28,8 @@ class vars(object):
   except Exception as e:
     print(str(e))
     exit()
-            
+    
+    
 API_ID = 3281305
 # ADD VALUE BELOW FOR API_HASH , DONT REMOVE " " 
 API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6" 

@@ -1,8 +1,13 @@
 import os 
 import time 
+import logging
 from pyrogram import filters, client 
 from Config import SBot 
 
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+LOGGER = logging.getLogger(__name__)
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @SBot.on_message(filters.command("start"))
 async def start(client, message):
