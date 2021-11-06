@@ -7,3 +7,4 @@ async def start(bot, message):
       [InlineKeyboardButton("CHANNEL", url="https://t.me/Animes_Encoded")],
     ),
   )
+
