@@ -23,8 +23,8 @@ class vars(object):
     print(str(e))
     exit()
     
-API_ID = 3281305
-API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f"
+API_ID = 16067877
+API_HASH = "5f18154b89b1792829d1c7b1e1dd7e82" 
 BOT_TOKEN = "2124586685:AAEtpsQEurB2-rfJan7kzyrrPJvRtl0aPGo" 
 
 app = Client(
