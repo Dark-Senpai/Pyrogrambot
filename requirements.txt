@@ -1,2 +1,3 @@
-pyrogram 
+pyrogram
+python-decouple
 TgCrypto
