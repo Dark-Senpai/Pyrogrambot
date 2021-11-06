@@ -16,7 +16,7 @@ except Exception as e:
   exit()
   
 
-plugins = dict(root="SmartBot/super_scripts")
+plugins = dict(root="bot/super_scripts")
 app = pyrogram.Client(
   "Anime",
   api_id=API_ID,
