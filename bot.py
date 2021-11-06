@@ -12,8 +12,8 @@ async def start(client, message):
     reply_markup=InlineKeyboardMarkup(
       [InlineKeyboardButton('Join Now', url="https://t.me/Animes_Encoded")],
     ),
-  ),
-)
+  )
+
 
 #@SBot.on_message(filters.command("id"))
 #async def show_id(client, message):
