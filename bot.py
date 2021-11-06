@@ -17,11 +17,11 @@ async def start(client, message):
   )
 )
 
-@SBot.on_message(filters.command("id"))
-async def show_id(client, message):
-  await client.reply_text(
-    message.chat.id,
-    text=)
+#@SBot.on_message(filters.command("id"))
+#async def show_id(client, message):
+ # await client.reply_text(
+#    message.chat.id,
+    #text=)
   
 #@SBot.on_message(filters.incoming & (filters.video | filters.document))
 #async def encode(client, cmd):
