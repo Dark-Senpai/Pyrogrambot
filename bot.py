@@ -1,7 +1,7 @@
 import os 
 import time 
 from pyrogram import filters, client 
-from config import SBot 
+from Config import SBot 
 
 
 @SBot.on_message(filters.command("start"))
