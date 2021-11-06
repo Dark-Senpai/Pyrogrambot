@@ -28,7 +28,7 @@ async def start(client, message):
  # file_type = cmd.video or cmd.document
 #  if not file_type.mime_type.startswith("video/"):
   #  await cmd.reply_text("This is not a video sarrrr.... Please go to school and learn something 🤭")
-    return 
+   # return 
  # editable = await cmd.reply_text("Downloading Video ...", parse_mode="Markdown")
  # dl_loc = Config.DOWN_PATH + "/WatermarkAdder/" + str(cmd.from_user.id) + "/"
 #  if not os.path.isdir(dl_loc):
