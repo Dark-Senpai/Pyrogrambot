@@ -10,11 +10,9 @@ async def start(client, message):
     message.chat.id,
     text="**I am alive!** \n **Please join my channel also !!!**",
     reply_markup=InlineKeyboardMarkup(
-      [
-        InlineKeyboardButton('Join Now', url="https://t.me/Animes_Encoded"
-      ]
-    )
-  )
+      [InlineKeyboardButton('Join Now', url="https://t.me/Animes_Encoded")],
+    ),
+  ),
 )
 
 #@SBot.on_message(filters.command("id"))
