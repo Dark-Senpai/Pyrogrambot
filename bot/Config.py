@@ -15,14 +15,11 @@ except Exception as e:
   print(str(e))
   exit()
   
-
-plugins = dict(root="bot/scripts")
 app = pyrogram.Client(
   "Anime",
   api_id=API_ID,
   api_hash=API_HASH,
-  bot_token=BOT_TOKEN,
-  plugins=plugins
+  bot_token=BOT_TOKEN
 )
 
 app.run()
